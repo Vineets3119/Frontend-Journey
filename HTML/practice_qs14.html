@@ -1,0 +1,55 @@
+<!--
+Q14. Create a feedback form that
+collects the user's name, email,
+message, and a rating out of 5
+using text inputs, textarea,
+radio buttons, and a submit button.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Qs 14</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <form action="/contact">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="username" placeholder="Write your name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Write your email">
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="rate">Rate us out of 5:</label>
+            <br>
+            <input type="radio" id="rate" name="rate" value="one">
+            <label for="one">1</label>
+            <br>
+            <input type="radio" id="rate" name="rate" value="two">
+            <label for="two">2</label>
+            <br>
+            <input type="radio" id="rate" name="rate" value="three">
+            <label for="three">3</label>
+            <br>
+            <input type="radio" id="rate" name="rate" value="four">
+            <label for="four">4</label>
+            <br>
+            <input type="radio" id="rate" name="rate" value="five">
+            <label for="five">5</label>
+        </div>
+        <div>
+            <button>Send your message!</button>
+        </div>
+    </form>
+</body>
+</html>
