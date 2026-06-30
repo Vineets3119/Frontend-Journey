@@ -56,11 +56,19 @@ My goal is to become a skilled Frontend Developer by building strong fundamental
 
 ## 👨‍💻 Author
 
+<<<<<<< HEAD
 **Vineet Singh**
+=======
+** Vineet Singh **
+>>>>>>> 1b09af4 (Remove .DS_Store and update repository)
 
 B.Tech CSE Student  
 Learning Web Development & DSA
 
 ---
 
+<<<<<<< HEAD
 ⭐ Feel free to explore the repository and follow my learning journey!
+=======
+⭐ Feel free to explore the repository and follow my learning journey!
+>>>>>>> 1b09af4 (Remove .DS_Store and update repository)
